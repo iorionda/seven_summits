@@ -1,5 +1,12 @@
 require "seven_summits/version"
+require "seven_summits/core"
 
 module SevenSummits
-  # Your code goes here...
+  def self.core
+    SevenSummits::Core.instance
+  end
+
+  def self.definition
+    SevenSummits.core.definition
+  end
 end
