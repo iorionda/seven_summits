@@ -14,5 +14,13 @@ module SevenSummits
     def asia
       Asia.instance
     end
+
+    def bass_list
+      BassList.instance
+    end
+
+    def messener_list
+      MesseberList.instance
+    end
   end
 end
