@@ -54,9 +54,5 @@ module SevenSummits
     def coordinates
       [latitude, longitude]
     end
-
-    def google_map_url
-      "https://www.google.cm/maps/place/Mt+Everest,+Sagarmatha+National+Park,+Rikaze,+Nepal/@27.9877419,86.9249772,15z/data=!4m2!3m1!1s0x39e854a215bd9ebd:0x576dcf806abbab2"
-    end
   end
 end
