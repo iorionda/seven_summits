@@ -1,6 +1,5 @@
 module SevenSummits
-  require 'singleton'
-
+  
   class Asia
     include Singleton
 
