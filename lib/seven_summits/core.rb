@@ -1,7 +1,12 @@
 require 'seven_summits/asia'
+require 'seven_summits/south_america'
 
 module SevenSummits
   require 'singleton'
+  require 'json'
+  require 'date'
+
+  WEEK_DAYS = %w[SUN MON TUE WED THU FRI SAT]
 
   class Core
     include Singleton
@@ -13,6 +18,10 @@ module SevenSummits
 
     def asia
       Asia.instance
+    end
+
+    def south_america
+      SouthAmerica.instance
     end
 
     def bass_list

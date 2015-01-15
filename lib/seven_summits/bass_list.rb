@@ -7,15 +7,17 @@ module SevenSummits
       SevenSummits.asia
     end
 
+    def south_america
+      SevenSummits.south_america
+    end
+
     def all
       [
         SevenSummits.asia,
+        SevenSummits.south_america,
       ]
     end
 
-    # class SouthAmerica
-    # end
-    #
     # class NorthAmerica
     # end
     #
