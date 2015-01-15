@@ -5,12 +5,12 @@ module SevenSummits
     include Singleton
 
     def asia
-      Core::Asia.instance
+      SevenSummits.asia
     end
 
     def all
       [
-        Core::Asia.instance,
+        SevenSummits.asia,
       ]
     end
 
