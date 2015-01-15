@@ -27,6 +27,7 @@ module SevenSummits
       Date.new(1897, 1, 14)
     end
 
+    # [TODO] 初登ルートを調べる
     def first_ascent_route
     end
 
