@@ -1,5 +1,4 @@
 module SevenSummits
-  require 'singleton'
 
   class BassList
     include Singleton
