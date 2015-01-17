@@ -1,5 +1,6 @@
 require 'seven_summits/asia'
 require 'seven_summits/south_america'
+require 'seven_summits/north_america'
 
 module SevenSummits
   require 'singleton'
@@ -22,6 +23,10 @@ module SevenSummits
 
     def south_america
       SouthAmerica.instance
+    end
+
+    def north_america
+      NorthAmerica.instance
     end
 
     def bass_list

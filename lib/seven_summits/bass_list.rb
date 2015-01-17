@@ -15,12 +15,10 @@ module SevenSummits
       [
         SevenSummits.asia,
         SevenSummits.south_america,
+        SevenSummits.north_america,
       ]
     end
 
-    # class NorthAmerica
-    # end
-    #
     # class Africa
     # end
     #
