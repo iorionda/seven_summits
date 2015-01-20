@@ -38,5 +38,9 @@ module SevenSummits
         route: first_ascent_route
       }.to_json
     end
+
+    def first_ascent_by
+      ['Hans Meyer', 'Ludwig Purtscheller']
+    end
   end
 end
