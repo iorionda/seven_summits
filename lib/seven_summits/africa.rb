@@ -46,5 +46,13 @@ module SevenSummits
     def latitude
       -3.040860800000000000
     end
+
+    def longitude
+      37.382723400000030000
+    end
+
+    def coordinates
+      [latitude, longitude]
+    end
   end
 end
