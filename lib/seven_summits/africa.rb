@@ -18,5 +18,13 @@ module SevenSummits
     def range
       nil
     end
+
+    def country
+      'Tanzania'
+    end
+
+    def first_ascent_date
+      Date.new(1889, 10, 6)
+    end
   end
 end
