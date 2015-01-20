@@ -10,5 +10,9 @@ module SevenSummits
     def elevation
       5_895
     end
+
+    def prominence
+      5_885
+    end
   end
 end
