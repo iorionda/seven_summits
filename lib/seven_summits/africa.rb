@@ -6,5 +6,9 @@ module SevenSummits
     def peak
       'Kilimanjaro'
     end
+
+    def elevation
+      5_895
+    end
   end
 end
