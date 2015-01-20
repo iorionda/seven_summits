@@ -42,5 +42,9 @@ module SevenSummits
     def first_ascent_by
       ['Hans Meyer', 'Ludwig Purtscheller']
     end
+
+    def latitude
+      -3.040860800000000000
+    end
   end
 end
