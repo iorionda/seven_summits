@@ -26,5 +26,9 @@ module SevenSummits
     def first_ascent_date
       Date.new(1889, 10, 6)
     end
+
+    def first_ascent_route
+      'marangu route'
+    end
   end
 end
