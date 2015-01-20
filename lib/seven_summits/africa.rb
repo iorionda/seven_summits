@@ -30,5 +30,13 @@ module SevenSummits
     def first_ascent_route
       'marangu route'
     end
+
+    def first_ascent
+      {
+        date: first_ascent_date.to_s,
+        day_of_week: SevenSummits::WEEK_DAYS[first_ascent_date.wday]
+        route: first_ascent_route
+      }.to_json
+    end
   end
 end
