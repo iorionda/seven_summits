@@ -14,5 +14,9 @@ module SevenSummits
     def prominence
       5_885
     end
+
+    def range
+      nil
+    end
   end
 end
